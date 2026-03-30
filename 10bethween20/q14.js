@@ -8,10 +8,12 @@ Saida: "5! = 120"
 while */
 
 let numero = 5;
-let multi = 0
+let multi = 1;
+let i = numero;
 
-while(numero <= 0){
-    numero--;
-    multi *= numero;
-    console.log(`${numero}! = ${multi}`);
+while(i > 0){
+    multi *= i;
+    i--;
 }
+
+console.log(`${numero}! = ${multi}`);
